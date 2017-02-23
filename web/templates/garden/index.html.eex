@@ -1,0 +1,13 @@
+<h1>Tutti Frutti Genome Lab</h1>
+<h2>"With the Tutti Frutti Genome Lab, I can grow fresh alternative facts for breakfast!" - Donald Trump</h2>
+
+<form id="tuttiForm">
+  <div class="options">
+    <input type="text" id="goal" placeholder="What do you want to make?">
+    <button class="button" type="submit">Grow!</button>
+    <div class="error-container"></div>
+  </div>
+</form>
+
+<div class="message-container"></div>
+<ul id="generationContainer"></ul>

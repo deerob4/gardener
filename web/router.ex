@@ -16,7 +16,8 @@ defmodule Gardener.Router do
   scope "/", Gardener do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", GardenController, :index
+    get "/grow", GardenController, :generate
   end
 
   # Other scopes may use custom stacks.

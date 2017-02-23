@@ -2,7 +2,7 @@ defmodule Gardener.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", Gardener.RoomChannel
+  channel "garden:*", Gardener.GardenChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
